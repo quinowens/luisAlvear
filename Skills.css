@@ -1,0 +1,403 @@
+img.sticky {
+    position: -webkit-sticky;
+    position: fixed;
+    top: 0;
+    border-radius: 50%;
+    width: 10%;
+   margin-left: 89%;
+  }
+  
+
+/* The hero image */
+body, html {
+    height: 100%;
+   
+  
+  }
+  
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .bg-image {
+    /* The image used */
+    background-image: url("https://devskiller.com/wp-content/uploads/2020/04/How-to-assess-programming-skills-%E2%80%93-a-review-of-the-best-methods-Blog.jpg");
+  
+    /* Add the blur effect */
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+  
+    /* Full height */
+    height: 50%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Position text in the middle of the page/image */
+  .bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid white;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+  }
+  .bg-text>p{
+    text-align:center;
+  }
+  body{
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #2c2b30;
+  }
+  .container{
+    width: 24%;
+    margin: 0 auto;
+  }
+  @keyframes load{
+    from {
+      width: 0%
+    }
+  }
+  @-webkit-keyframes load{
+    from {
+      width: 0%
+    }
+  }
+  @-moz-keyframes load{
+    from {
+      width: 0%
+    }
+  }
+  @-o-keyframes load{
+    from {
+      width: 0%
+    }
+  }
+  
+  .bar{
+    background-color: #EEE;
+    padding: 2px;
+    border-radius: 15px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #FFF;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+  }
+  .bar::before{
+    content:  attr(data-skill);
+    background-color:#6eebd7;
+    display: inline-block;
+    padding: 5px 0 5px 10px;
+    border-radius: inherit;
+    animation: load 2s 0s;
+    -webkit-animation: load 2s 0s;
+    -moz-animation: load 2s 0s;
+    -o-animation: load 2s 0s;
+  }
+  
+  .bar.front::before{
+    background-color: #6eebd7;
+  }
+  .bar.back::before{
+    background-color: #6eebd7;
+  }
+  
+  .bar.learning::before{
+    width: calc(35% - 10px);
+  }
+  .bar.basic::before{
+    width: calc(40% - 10px);
+  }
+  .bar.intermediate::before{
+    width: calc(60% - 10px);
+  }
+  .bar.advanced::before{
+    width: calc(80% - 10px);
+  }
+  .bar.expert::before{
+    width: calc(100% - 10px);
+  }
+  h1{
+      color:white;
+  }
+
+  .container2{
+    width: 24%;
+    margin: 0 auto;
+  }
+  
+  
+  .bar2{
+    background-color: #EEE;
+    padding: 2px;
+    border-radius: 15px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #FFF;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+  }
+  .bar2::before{
+    content:  attr(data-skill);
+    background-color: #6eebd7;
+    display: inline-block;
+    padding: 5px 0 5px 10px;
+    border-radius: inherit;
+    animation: load 2s 0s;
+    -webkit-animation: load 2s 0s;
+    -moz-animation: load 2s 0s;
+    -o-animation: load 2s 0s;
+  }
+  
+  .bar2.front::before{
+    background-color: #6eebd7;
+  }
+  .bar2.back::before{
+    background-color:#6eebd7;
+  }
+  
+  .bar2.learning::before{
+    width: calc(70% - 10px);
+  }
+  .bar2.basic::before{
+    width: calc(85% - 10px);
+  }
+  .bar2.intermediate::before{
+    width: calc(90% - 10px);
+  }
+  .bar2.advanced::before{
+    width: calc(90% - 10px);
+  }
+  .bar2.expert::before{
+    width: calc(95% - 10px);
+  }
+  
+  .container3{
+    width: 24%;
+    margin: 0 auto;
+  }
+  
+  
+  .bar3{
+    background-color: #EEE;
+    padding: 2px;
+    border-radius: 15px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #FFF;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+  }
+  .bar3::before{
+    content:  attr(data-skill);
+    background-color:#6eebd7;
+    display: inline-block;
+    padding: 5px 0 5px 10px;
+    border-radius: inherit;
+    animation: load 2s 0s;
+    -webkit-animation: load 2s 0s;
+    -moz-animation: load 2s 0s;
+    -o-animation: load 2s 0s;
+  }
+  
+  .bar3.front::before{
+    background-color:#6eebd7;
+  }
+  .bar3.back::before{
+    background-color: #6eebd7;
+  }
+  
+  .bar3.learning::before{
+    width: calc(40% - 10px);
+  }
+  .bar3.basic::before{
+    width: calc(45% - 10px);
+  }
+  .bar3.intermediate::before{
+    width: calc(60% - 10px);
+  }
+  .bar3.advanced::before{
+    width: calc(80% - 10px);
+  }
+  .bar3.expert::before{
+    width: calc(85% - 10px);
+  }
+  
+
+  
+  .container4{
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  
+  .bar4{
+    background-color: #EEE;
+    padding: 2px;
+    border-radius: 15px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #FFF;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    font-size:17px;
+  }
+  .bar4::before{
+    content:  attr(data-skill);
+    background-color: #2c2b30;
+    display: inline-block;
+    padding: 5px 0 5px 10px;
+    border-radius: inherit;
+    
+  }
+  
+  .bar4.front::before{
+    background-color:#2c2b30;
+  }
+  .bar4.back::before{
+    background-color:#2c2b30;
+  }
+  
+  .bar4.learning::before{
+    width: calc(100% - 10px);
+  }
+  .bar4.front::before.basic::before{
+    width: calc(100% - 10px);
+  }
+  .bar4.intermediate::before{
+    width: calc(100% - 10px);
+  }
+  .bar4.advanced::before{
+    width: calc(100% - 10px);
+  }
+  .bar4.expert::before{
+    width: calc(100% - 10px);
+  }
+  
+  
+  
+  
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    
+    background-color:white;
+    color: white;
+  }
+    
+   
+  p{
+      font-size: 20px;
+      font-family: Arial, Helvetica, sans-serif;
+      color:white;
+      text-align: left;
+      margin-left: 60px;
+      margin-right: 60px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    h2{
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+      color:white;
+      text-align: left;
+      margin-left: 60px;
+      margin-right: 60px;
+      margin-top: 20px;
+      margin-bottom: 20;
+    }
+
+    h4{
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+      color:white;
+      text-align: left;
+      margin-left: 60px;
+      margin-right: 60px;
+      margin-top: 20px;
+      margin-bottom: 20;
+    }
+    
+   
+    .academia>h1{
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+      color:white;
+      text-align: left;
+      margin-left: 60px;
+      margin-right: 60px;
+      margin-top: 60px;
+      
+    }
+    .projects>h1{
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+      color:white;
+      text-align: left;
+      margin-left: 60px;
+      margin-right: 60px;
+      margin-top: 90px;
+      
+    }
+    .honors>h1{
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+      color:white;
+      text-align: left;
+      margin-left: 60px;
+      margin-right: 60px;
+      margin-top: 30px;
+      
+    }
+    .club>h1{
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+      color:white;
+      text-align: left;
+      margin-left: 60px;
+      margin-right: 60px;
+      margin-top: 30px;
+      
+    }
+    
+     
+  .fa {  
+    padding: 17px;  
+  text-align: center;  
+    margin: 5px 2px;  
+    font-size: 30px;  
+    width: 50px;  
+  }  
+  
+  /* Add a hover effect if you want */
+  .fa-linkedin {  
+    background: #007bb5;  
+    color: white;  
+    border-radius: 50%;
+  }  
+  .fa-instagram {  
+    background: #125688;  
+    color: white;  
+    border-radius: 50%;
+  } 
+ 
+
+  .copy{
+    color:grey
+  }
+  
+  
