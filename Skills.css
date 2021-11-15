@@ -8,7 +8,6 @@ img.sticky {
   }
   
 
-/* The hero image */
 body, html {
     height: 100%;
    
@@ -21,14 +20,11 @@ body, html {
   }
   
   .bg-image {
-    /* The image used */
     background-image: url("https://devskiller.com/wp-content/uploads/2020/04/How-to-assess-programming-skills-%E2%80%93-a-review-of-the-best-methods-Blog.jpg");
   
-    /* Add the blur effect */
     filter: blur(2px);
     -webkit-filter: blur(2px);
   
-    /* Full height */
     height: 50%;
   
     /* Center and scale the image nicely */
@@ -235,13 +231,10 @@ body, html {
     width: calc(85% - 10px);
   }
   
-
-  
   .container4{
     width: 80%;
     margin: 0 auto;
   }
-  
   
   .bar4{
     background-color: #EEE;
@@ -287,10 +280,6 @@ body, html {
     width: calc(100% - 10px);
   }
   
-  
-  
-  
-  
   footer {
     text-align: center;
     padding: 20px;
@@ -299,7 +288,6 @@ body, html {
     color: white;
   }
     
-   
   p{
       font-size: 20px;
       font-family: Arial, Helvetica, sans-serif;
@@ -374,7 +362,6 @@ body, html {
       
     }
     
-     
   .fa {  
     padding: 17px;  
   text-align: center;  
@@ -382,8 +369,7 @@ body, html {
     font-size: 30px;  
     width: 50px;  
   }  
-  
-  /* Add a hover effect if you want */
+ 
   .fa-linkedin {  
     background: #007bb5;  
     color: white;  
@@ -395,7 +381,6 @@ body, html {
     border-radius: 50%;
   } 
  
-
   .copy{
     color:grey
   }
