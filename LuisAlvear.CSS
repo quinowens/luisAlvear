@@ -70,7 +70,6 @@ vertical-align: middle;
 }
 
   
-  
   body, html {
     height: 100%;
     margin: 0;
@@ -82,7 +81,6 @@ vertical-align: middle;
   }
   
   .bg-image {
-    /* Full height */
     height: 50%;
   
     /* Center and scale the image nicely */
@@ -138,9 +136,7 @@ vertical-align: middle;
     height: 100%;
 }
 
-/* The hero image */
 .hero-image {
-  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Primermac.jpg");
 
   /* Set a specific height */
@@ -180,7 +176,6 @@ text-align: center;
   width: 50px;  
 }  
 
-/* Add a hover effect if you want */
 .fa-linkedin {  
   background: #007bb5;  
   color: white;  
